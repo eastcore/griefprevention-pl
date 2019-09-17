@@ -1,2 +1,4 @@
-# griefprevention-pl
+# GriefPrevention-PL
 Polskie tłumaczenie do GriefPrevention
+
+NIEUKOŃCZONE!
