@@ -1,13 +1,18 @@
-# Use a YAML editor like NotepadPlusPlus to edit this file.  
-# After editing, back up your changes before reloading the server in case you made a syntax error.  
-# Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
+# © Tłumaczenie wykonane przez EastCore
+# https://github.com/eastcore/griefprevention-pl
+#
+# Używaj edytora YAML jak notepadplusplus, aby edytować ten plik
+#
+# Używaj znaku dolaru ($) zamiast & lub §, aby formatować tekst. http://minecraft.gamepedia.com/Formatting_codes
+#
+# Tłumaczenie
 Messages:
   RespectingClaims:
-    Text: Now respecting claims.
+    Text: Od teraz szanujesz teren graczy.
   IgnoringClaims:
-    Text: Now ignoring claims.
+    Text: Od teraz ignorujesz tereny graczy.
   SuccessfulAbandon:
-    Text: Claims abandoned.  You now have {0} available claim blocks.
+    Text: Zajęte tereny zostały przez Ciebie porzucone.  Zostało ci {0} bloków terenu.
     Notes: '0: remaining blocks'
   RestoreNatureActivate:
     Text: Ready to restore some nature!  Right click to restore nature, and use /BasicClaims
