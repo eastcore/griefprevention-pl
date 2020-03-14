@@ -8,55 +8,48 @@
 # Tłumaczenie
 Messages:
   RespectingClaims:
-    Text: Od teraz szanujesz teren graczy.
+    Text: Teraz szanujesz claimy.
   IgnoringClaims:
-    Text: Od teraz ignorujesz tereny graczy.
+    Text: Teraz ignorujesz claimy.
   SuccessfulAbandon:
-    Text: Zajęte tereny zostały przez Ciebie porzucone.  Zostało ci {0} bloków terenu.
+    Text: Claimy porzucone. Masz teraz {0} bloków do claimowania.
     Notes: '0: remaining blocks'
   RestoreNatureActivate:
-    Text: Ready to restore some nature!  Right click to restore nature, and use /BasicClaims
-      to stop.
+    Text: Kliknij prawym, aby odtworzyć nature i użyj /BasicClaims, aby przestać.
   RestoreNatureAggressiveActivate:
-    Text: Aggressive mode activated.  Do NOT use this underneath anything you want
-      to keep!  Right click to aggressively restore nature, and use /BasicClaims to
+    Text: Tryb agresywny włączony.  Nie używaj tego na niczym, co chcesz zatrzymać! Kliknij prawym, aby agresywnie odtworzyć nature /BasicClaims to
       stop.
   FillModeActive:
-    Text: Fill mode activated with radius {0}.  Right click an area to fill.
+    Text: Tryb wypełniania włączony w promieniu {0}. Kliknij prawym na teren, który chcesz wypełnić.
     Notes: '0: fill radius'
   TransferClaimPermission:
-    Text: That command requires the administrative claims permission.
+    Text: Brak uprawnień.
   TransferClaimMissing:
-    Text: There's no claim here.  Stand in the administrative claim you want to transfer.
+    Text: Nie ma tutaj claimu.
   TransferClaimAdminOnly:
-    Text: Only administrative claims may be transferred to a player.
+    Text: Tylko administracyjne claimy mogą być transferowane do gracza.
   PlayerNotFound2:
-    Text: No player by that name has logged in recently.
+    Text: Ten gracz nie był nigdy na serwerze.
   TransferTopLevel:
-    Text: Only top level claims (not subdivisions) may be transferred.  Stand outside
-      of the subdivision and try again.
+    Text: Tylko normalne claimy mogą być transferowane. Stań poza subdywizją.
   TransferSuccess:
-    Text: Claim transferred.
+    Text: Claim transferowany.
   TrustListNoClaim:
-    Text: Stand inside the claim you're curious about.
+    Text: Stań w claimie, który Cię interesuje.
   ClearPermsOwnerOnly:
-    Text: Only the claim owner can clear all permissions.
+    Text: Tylko właściciel claima może usunąć wszystkie uprawnienia.
   UntrustIndividualAllClaims:
-    Text: Revoked {0}'s access to ALL your claims.  To set permissions for a single
-      claim, stand inside it.
+    Text: Usunięto {0} dostęp do wszystkich twoich claimów. Aby ustawić dostęp w jednym claimie, stań w nim.
     Notes: '0: untrusted player'
   UntrustEveryoneAllClaims:
-    Text: Cleared permissions in ALL your claims.  To set permissions for a single
-      claim, stand inside it.
+    Text: Usunięto uprawnienia we wszystkich twoich claimach. Aby ustawić uprawnienia w jedym claimie, stań w nim.
   NoPermissionTrust:
-    Text: You don't have {0}'s permission to manage permissions here.
+    Text: Nie masz uprawnień {0}, aby ustawiać uprawnienia w tym claimie.
     Notes: '0: claim owner''s name'
   ClearPermissionsOneClaim:
-    Text: Cleared permissions in this claim.  To set permission for ALL your claims,
-      stand outside them.
+    Text: Wyczyszczono uprawnienia w tym claimie. Aby ustawić uprawnienia we wszystkich twoich claimach, stań poza nimi.
   UntrustIndividualSingleClaim:
-    Text: Revoked {0}'s access to this claim.  To set permissions for a ALL your claims,
-      stand outside them.
+    Text: Usunięto dostęp {0} do tego claima. Aby ustawić uprawnienia we wszystkich claimach, stań poza nimi.
     Notes: '0: untrusted player'
   OnlySellBlocks:
     Text: Claim blocks may only be sold, not purchased.
@@ -327,7 +320,7 @@ Messages:
   NoBuildPvP:
     Text: You can't build in claims during PvP combat.
   NoBuildPermission:
-    Text: You don't have {0}'s permission to build here.
+    Text: Nie masz uprawnień {0}, aby tu budować.
     Notes: '0: owner name'
   NonSiegeMaterial:
     Text: That material is too tough to break.
@@ -457,10 +450,6 @@ Messages:
     Text: You can't claim all of this because you're not allowed to build here.
   ResizeFailOverlapRegion:
     Text: You don't have permission to build there, so you can't claim that area.
-  NoBuildPortalPermission:
-    Text: You can't use this portal because you don't have {0}'s permission to build
-      an exit portal in the destination land claim.
-    Notes: '0: Destination land claim owner''s name.'
   ShowNearbyClaims:
     Text: Found {0} land claims.
     Notes: '0: Number of claims found.'
